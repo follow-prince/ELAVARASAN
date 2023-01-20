@@ -19,7 +19,7 @@ if (nav.length) {
             {
               width: $(this).attr("data-percent"),
             },
-            2000
+            1000
           );
       });
     }
@@ -57,7 +57,7 @@ const Progress = () => {
                 disableButtonsControls
                 disableDotsControls
                 mouseTracking
-                autoPlayInterval={1000}
+                autoPlayInterval={300}
               >  
               <div className="mylang" title="PHP" >
         <div className="lang-info">
