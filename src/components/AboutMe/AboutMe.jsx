@@ -34,7 +34,6 @@ const AboutMe = () => {
                   <img src={reactagle} alt="" />
                 </div>
                 <div className="about-shady">
-                  <img src={shady} alt="" />
                 </div>
               </div>
               <div className="abouMe-row">
