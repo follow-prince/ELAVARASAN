@@ -58,6 +58,16 @@ export const Projects = createApi({
   }),
 });
 
+export const MyProjects = createApi({
+  reducerPath: "Projects",
+  baseQuery: fetchBaseQuery({ baseUrl }),
+  endpoints: (builder) => ({
+    getProjects: builder.query({
+      query: () => "/projects-api",
+    }),
+  }),
+});
+
 // Contacts
 export const Contacts = createApi({
   reducerPath: "Contacts",

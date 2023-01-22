@@ -5,6 +5,8 @@ import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Hero/Intro";
 import Projects from "./components/MyWork/projects";
+import MyLove from "./components/MyLove/projects";
+
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
 import Progress from "./components/SkillBars/progress";
@@ -46,6 +48,7 @@ function App() {
         <AboutMe />
         <Services />
         <Progress />
+        <MyLove />
         <Projects />
         <ContactMe />
         <Email />
