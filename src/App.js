@@ -5,8 +5,6 @@ import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Hero/Intro";
 import Projects from "./components/MyWork/projects";
-import MyLove from "./components/MyLove/projects";
-
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./components/Services/Services";
 import Progress from "./components/SkillBars/progress";
@@ -46,10 +44,10 @@ function App() {
           <Home />
         </div>
         <AboutMe />
-        <Services />
         <Progress />
-        <MyLove />
         <Projects />
+        <Services />
+
         <ContactMe />
         <Email />
         <Footer />

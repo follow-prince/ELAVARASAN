@@ -12,11 +12,11 @@ const Projects = () => {
 
   const options = {
     margin: 30,
-    responsiveClass: true,
+    responsiveClass: false,
     nav: true,
     dots: true,
-    autoplay: false,
-    navText: false,
+    autoplay: true,
+    navText: true,
     smartSpeed: 1000,
     responsive: {
       0: {
@@ -55,9 +55,9 @@ const Projects = () => {
   return (
     <div className="mywork " id="work">
       <div className="mywork-title">
-        <h2>Check Out My Reacet Projects</h2>
+        <h2>Check Out My Qualification </h2>
 
-        <h3>My Work</h3>
+        <h3>Certifications</h3>
       </div>
       <div className="project-row">
         
@@ -69,7 +69,7 @@ const Projects = () => {
               <div className="project" data-aos="fade-up">
                 <div className="project-img">
                   <img
-                    src={`${img_300}1jKSR3PTazft3UTTUrqngBRKQiWFAlEvW`}
+                    src={`${img_300}1Dm_I7SVVnmibuLfkpaPnrRtmHUke5eGk`}
                     alt=""
                     className="work-img"
                   />
@@ -77,43 +77,36 @@ const Projects = () => {
 
                 <div className="date-posted">
                   <div className="who-post">
-                    <p className="admin">HTML,CSS,JS</p>
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
                   </div>
                 </div>
                 <div className="work-details">
-                  <h2>Portfolio - Animation</h2>
-                  <p className="work-info">This is a simple dynamic and responsible portfolio web application.</p>
-                  <div className="project-links">
+                  <h2>Launching into Machine Learning</h2>
+                  <p className="work-info">an online credit course 
+                  authorized <br/> by Google Cloud and   offered <br/>
+                  through  Coursera</p>
+                
                     <a
-                      href="https://my-project-virid-theta.vercel.app/"
+                      href="https://www.coursera.org/account/accomplishments/verify/FLW6QZQAE8DT"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <h6 className="learnmore">
-                        <i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;
-                        Live Demo
-                      </h6>
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
                     </a>
-                    <a
-                      href="https://github.com/follow-prince/my-project"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <h6 className="learnmore">
-                        <i class="fa fa-github" aria-hidden="true"></i> &nbsp;
-                        Source Code
-                      </h6>
-                    </a>
-                  </div>
+                   
                 </div>
               </div>
 
-            
-{/* ------------------------------------------------------------------------ */}
-              {/* <div className="project" data-aos="fade-up">
+{/* ------------------------------------------------------------------------------------- */}
+
+
+
+<div className="project" data-aos="fade-up">
                 <div className="project-img">
                   <img
-                    src={`${img_300}1Jfpgke1Rdsw28RUNRz5IGFumvAq7tOZr`}
+                    src={`${img_300}1fLf1hIvD3IpGmcuaNSsfSJDx8dNNSl33`}
                     alt=""
                     className="work-img"
                   />
@@ -121,37 +114,92 @@ const Projects = () => {
 
                 <div className="date-posted">
                   <div className="who-post">
-                    <p className="admin">HTML,CSS,JS</p>
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
                   </div>
                 </div>
                 <div className="work-details">
-                  <h2>Login Page - Puppy Dog Animation</h2>
-                  <p className="work-info">Simple login & account create  page  with puppy dog animation.</p>
-                  <div className="project-links">
+                  <h2>Front End Development</h2>
+                  <p className="work-info"> 
+                  This professional demonstrated and a commitment to deepening their <br/> skills and advancing  their career 
+                  </p>
+                
                     <a
-                      href="https://follow-prince.github.io/login-page.github.io/index.html"
+                      href="https://simpli-web.app.link/e/bxFBc3KaQwb"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <h6 className="learnmore">
-                        <i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;
-                        Live Demo
-                      </h6>
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
                     </a>
-                    <a
-                      href="https://github.com/follow-prince/login-page.github.io"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <h6 className="learnmore">
-                        <i class="fa fa-github" aria-hidden="true"></i> &nbsp;
-                        Source Code
-                      </h6>
-                    </a>
-                  </div>
+                   
                 </div>
               </div>
-             */}
+
+
+
+
+
+
+
+
+
+
+{/* --------------------------------------------3----------------------------------------- */}
+
+
+
+
+
+<div className="project" data-aos="fade-up">
+                <div className="project-img">
+                  <img
+                    src={`${img_300}1CzJjX_9z5FHyaD_kRqMa9lbgzKKaslq_`}
+                    alt=""
+                    className="work-img"
+                  />
+                </div>
+
+                <div className="date-posted">
+                  <div className="who-post">
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
+                  </div>
+                </div>
+                <div className="work-details">
+                  <h2>How Google does Machine Learning </h2>
+                  <p className="work-info"> 
+
+                  WILL LEARN
+Describe Vertex AI Platform and how it's used to quickly build, train,and deploy
+AutoML machine learning models without writing a single line of code
+                  </p>
+                
+                    <a
+                      href="https://coursera.org/verify/ES4FYY89D7J3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
+                    </a>
+                   
+                </div>
+              </div>
+
+
+
+
+
+{/* ------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------- */}
+{/* ------------------------------------------------------------------------------------- */}
 
 {/* ------------------------------------------------------------------------------------- */}
 

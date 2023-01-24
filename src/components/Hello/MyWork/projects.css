@@ -40,7 +40,6 @@
   overflow: hidden;
   display: block;
   position: relative;
-  width: 100%;
 }
 .project-row {
   display: flex;

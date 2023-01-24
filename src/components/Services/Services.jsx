@@ -18,9 +18,9 @@ const Services = () => {
       <section id="services">
         <div className="service-container">
           <div className="service-title">
-            <h2>What Service i Offer you</h2>
+            <h2>Check Out My Works</h2>
 
-            <h3>Services</h3>
+            <h3>Projects</h3>
           </div>
 
           <div className="service-row">
@@ -30,18 +30,85 @@ const Services = () => {
                   data-aos="zoom-in-up"
                   data-aos-duration="1500"
                 >
-                  <div className="ser-back">
-                    <img src={`${img_300}1Ndt1zo9A0JnSKH0iJHz-u34NAWiFU2Ju`} alt="" />
-                  </div>
-                  <h4 className="web">Web Development</h4>
-                  <p className="service-info">As a web development use coding languages like HTML, CSS , JavaScript and Python to build websites and web application.</p>
+                  
+                  <h4 className="web">Portfolio - Animation</h4>
+                  <p className="service-info">
+                  This is a simple dynamic and responsible portfolio web application.
+                  </p>
+
+                <a
+                      href="https://my-project-virid-theta.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;
+                        Live Demo
+                      </h6>
+                    </a>
+                    <a
+                      href="https://github.com/follow-prince/my-project"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fa fa-github" aria-hidden="true"></i> &nbsp;
+                        Source Code
+                      </h6>
+                    </a>
+
+
+
+                  
                   <div class="shadow-icon">
                     <i class=""></i>
                   </div>
                 </div>
 
 
-                
+                {/* ----------------------------------------- */}
+
+                {/* <div
+                  className=" my-service"
+                  data-aos="zoom-in-up"
+                  data-aos-duration="1500"
+                >
+                  
+                  <h4 className="web">Portfolio - Animation</h4>
+                  <p className="service-info">
+                  This is a simple dynamic and responsible portfolio web application.
+                  </p>
+
+                <a
+                      href="https://my-project-virid-theta.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;
+                        Live Demo
+                      </h6>
+                    </a>
+                    <a
+                      href="https://github.com/follow-prince/my-project"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fa fa-github" aria-hidden="true"></i> &nbsp;
+                        Source Code
+                      </h6>
+                    </a>
+
+
+
+                  
+                  <div class="shadow-icon">
+                    <i class=""></i>
+                  </div>
+                </div>
+ */}
+
               
           </div>
         </div>
