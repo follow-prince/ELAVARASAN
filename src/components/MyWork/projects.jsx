@@ -12,10 +12,10 @@ const Projects = () => {
 
   const options = {
     margin: 30,
-    responsiveClass: false,
+    responsiveClass: true,
     nav: true,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     navText: true,
     smartSpeed: 1000,
     responsive: {
@@ -63,6 +63,51 @@ const Projects = () => {
         
           <OwlCarousel className="owl-theme" {...options}>
             
+
+
+
+
+
+
+
+          <div className="project" data-aos="fade-up">
+                <div className="project-img">
+                  <img
+                    src={`${img_300}1AQU1792t1jsEK4BIxCq9EdeJt0Wj7bMt`}
+                    alt=""
+                    className="work-img"
+                  />
+                </div>
+
+                <div className="date-posted">
+                  <div className="who-post">
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
+                  </div>
+                </div>
+                <div className="work-details">
+                  <h2>Secure Full Stack MEAN Developer</h2>
+                  <p className="work-info"> 
+
+                  MEAN stack development is a modern approach to building dynamic web applications. It is an open-source JavaScript framework that harnesses four major technologies: MongoDB, Express, Angular, and Node.js. 
+                  </p>
+                
+                    <a
+                      href="https://coursera.org/verify/XGRYNK6X6UQG"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
+                    </a>
+                   
+                </div>
+              </div>
+
+
+
+
+
 
 
 {/* ----------------------------------------------------------------------- */}
@@ -192,6 +237,9 @@ Verification                      </h6>
 
 
 {/* ------------------------------------------------------------------------------------- */}
+
+
+
 {/* ------------------------------------------------------------------------------------- */}
 {/* ------------------------------------------------------------------------------------- */}
 {/* ------------------------------------------------------------------------------------- */}

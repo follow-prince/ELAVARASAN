@@ -42,7 +42,7 @@ const Intro = () => {
                       data-aos="fade-down"
                       data-aos-duration="1500"
                     >
-                    BEGINNER WEB DEVELOPER
+                    WEB DEVELOPER
                     </h3>
                     <h3
                       className="name"
