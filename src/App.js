@@ -44,8 +44,9 @@ function App() {
           <Home />
         </div>
         <AboutMe />
-        <Progress />
         <Projects />
+
+        <Progress />
         <Services />
 
         <ContactMe />

@@ -73,6 +73,51 @@ const Projects = () => {
           <div className="project" data-aos="fade-up">
                 <div className="project-img">
                   <img
+                    src={`${img_300}1NC1L08JdRnExjhp2M-EDSJUGfsyU4tKc`}
+                    alt=""
+                    className="work-img"
+                  />
+                </div>
+
+                <div className="date-posted">
+                  <div className="who-post">
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
+                  </div>
+                </div>
+                <div className="work-details">
+                  <h2> Front-End Development</h2>
+                  <p className="work-info"> 
+                  Distinguish between front-end, back-end, and full-stack developers.
+
+Create and style a webpage with HTML and CSS.
+
+The benefits of working with UI frameworks.
+                  </p>
+                
+                    <a
+                      href="https://coursera.org/verify/HTJFT8VS9W45"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
+                    </a>
+                   
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+          <div className="project" data-aos="fade-up">
+                <div className="project-img">
+                  <img
                     src={`${img_300}1AQU1792t1jsEK4BIxCq9EdeJt0Wj7bMt`}
                     alt=""
                     className="work-img"
