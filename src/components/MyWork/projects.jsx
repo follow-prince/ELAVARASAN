@@ -17,7 +17,7 @@ const Projects = () => {
     dots: true,
     autoplay: false,
     navText: true,
-    smartSpeed: 1000,
+    smartSpeed: 2000,
     responsive: {
       0: {
         items: 1,
@@ -63,6 +63,226 @@ const Projects = () => {
         
           <OwlCarousel className="owl-theme" {...options}>
             
+
+
+
+
+
+
+
+
+
+
+
+          <div className="project" data-aos="fade-up">
+                <div className="project-img">
+                  <img
+                    src={`${img_300}1CZODvZigcimp1potWUtxRVLc9iMdrgM7`}
+                    alt=""
+                    className="work-img"
+                  />
+                </div>
+
+                <div className="date-posted">
+                  <div className="who-post">
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
+                  </div>
+                </div>
+                <div className="work-details">
+                  <h2> The Full Stack</h2>
+                  <p className="work-info"> 
+                  Cascading Style Sheets (CSS)
+HTML
+Production environments
+JavaScript
+Django (Web Framework)
+                  </p>
+                
+                    <a
+                      href="https://coursera.org/verify/YAW7G2QESQ6Q"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
+                    </a>
+                   
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+              <div className="project" data-aos="fade-up">
+                <div className="project-img">
+                  <img
+                    src={`${img_300}1siK4vIlTDmquF8XUPQ_axFkQsmyi3jGi`}
+                    alt=""
+                    className="work-img"
+                  />
+                </div>
+
+                <div className="date-posted">
+                  <div className="who-post">
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
+                  </div>
+                </div>
+                <div className="work-details">
+                  <h2> JavaScript Basics</h2>
+                  <p className="work-info"> 
+                  Working with a Code Editor, Intro of Selection Control Structures, How to Create Loops, and Understanding Core Programming Structures.  
+                  </p>
+                
+                    <a
+                      href="https://coursera.org/verify/UK22XMU743HH"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
+                    </a>
+                   
+                </div>
+              </div>
+
+
+
+
+
+
+
+              <div className="project" data-aos="fade-up">
+                <div className="project-img">
+                  <img
+                    src={`${img_300}1eBSJN0ZGhW1O1Jxtp2HsiMqOCnkx4WPq`}
+                    alt=""
+                    className="work-img"
+                  />
+                </div>
+
+                <div className="date-posted">
+                  <div className="who-post">
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
+                  </div>
+                </div>
+                <div className="work-details">
+                  <h2> Getting Started with Data Analytics on AWS</h2>
+                  <p className="work-info"> 
+                  aws,
+Data Analysis,
+Cloud
+
+                  </p>
+                
+                    <a
+                      href="https://coursera.org/verify/PRDZJB49BPRW"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
+                    </a>
+                   
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+              <div className="project" data-aos="fade-up">
+                <div className="project-img">
+                  <img
+                    src={`${img_300}14lUYtYPfLKqsaUHNlL3o69pJfZKFRJd6`}
+                    alt=""
+                    className="work-img"
+                  />
+                </div>
+
+                <div className="date-posted">
+                  <div className="who-post">
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
+                  </div>
+                </div>
+                <div className="work-details">
+                  <h2> Animation with JavaScript and jQuery</h2>
+                  <p className="work-info"> 
+                  aws,
+                  Jquery,
+JavaScript,
+animations
+
+                  </p>
+                
+                    <a
+                      href="https://coursera.org/verify/FX4TT6VBJYN8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
+                    </a>
+                   
+                </div>
+              </div>
+
+
+
+
+
+
+              <div className="project" data-aos="fade-up">
+                <div className="project-img">
+                  <img
+                    src={`${img_300}17owCpqYaTI_qO0vNavmqWzDB_rRPgj2_`}
+                    alt=""
+                    className="work-img"
+                  />
+                </div>
+
+                <div className="date-posted">
+                  <div className="who-post">
+                    {/* <p className="admin">HTML,CSS,JS</p> */}
+                  </div>
+                </div>
+                <div className="work-details">
+                  <h2> Introduction to Microsoft Azure Cloud Services</h2>
+                  <p className="work-info"> 
+                  Describe the benefits of cloud computing in Microsoft Azure,
+Explain core cloud concepts,
+Describe core Microsoft Azure services,
+Describe core Microsoft Azure architecture components,
+
+                  </p>
+                
+                    <a
+                      href="https://coursera.org/verify/C2PPR2NYUMHG"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i class="fas fa-link" aria-hidden="true"></i>&nbsp;
+Verification                      </h6>
+                    </a>
+                   
+                </div>
+              </div>
 
 
 

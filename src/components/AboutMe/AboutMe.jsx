@@ -67,7 +67,7 @@ I'm currently a first year post-graduate student pursuing MCA (Master of Comput
 
                   <div className="itscv">
                     <a
-                      href="https://drive.google.com/file/d/1UhLEb2Iep0ujc9lw5i4upJUkuFMq1aln/view?usp=share_link"
+                      href="https://drive.google.com/file/d/18S_OqtF9wSdSnjSLcHJjsW-KYyy8kOXq/view"
                       download="RESUME.pdf"
                       target="_blank"
                       rel="noopener noreferrer"

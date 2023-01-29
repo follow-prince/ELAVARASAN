@@ -17,7 +17,7 @@ const Navbar = () => {
                 <img
                   src="https://raw.githubusercontent.com/follow-prince/project-images/main/crown.png"
                   alt=""
-                />My_Kingdom
+                />MY_KINGDOM
                  <span className="blink">_</span>
               </h5>
               <nav className="nav-menu  mainMenu">
