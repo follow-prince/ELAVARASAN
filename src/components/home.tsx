@@ -15,14 +15,12 @@ import {
 import { Link as NavLink } from "react-router-dom";
 import { MotionBox, MotionFlex } from "./motion";
 import Header from "./header";
-import { projectsList } from "data/projects-list";
 import "style/style.css";
 import UserIcon from "assets/images/user_icon.png";
 import About from "./about";
 import TechStack from "./tech-stack";
+// @ts-ignore
 import Certificates from "./repositories-list.tsx";
-import ButttonResume from "./ButtonResume.tsx";
-
 
 
 const ANIMATION_DURATION = 0.5;
