@@ -92,7 +92,7 @@ const Home = () => {
               Full Stack Developer and
             </Box>{" "}
             <Box as="span" whiteSpace="nowrap">
-              open-source enthusiast from&nbsp;
+              open-source enthusiast &nbsp;
             </Box>
             from{" "}
             <Box as="span" whiteSpace="nowrap">
